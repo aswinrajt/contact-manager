@@ -3,7 +3,7 @@ import { Row, Col, Container } from 'react-bootstrap';
 
 import Add from '../components/Add';
 import Contacts from '../components/Contacts';
-import Category from '../components/Category'; // Import the new Category component
+
 
 function Home() {
   const [response, setResponse] = useState("");

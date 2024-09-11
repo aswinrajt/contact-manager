@@ -8,7 +8,6 @@ function Contacts(response) {
     const [showEditModal, setShowEditModal] = useState(false);
     const [selectedContact, setSelectedContact] = useState(null);
 
-    // Fetch contacts and set state
     const getData = async () => {
         const result = await getContact();
         if (result.status === 200) {
