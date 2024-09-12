@@ -2,9 +2,8 @@ import React, { useState } from 'react'
 import {
   MDBContainer,
   MDBInput,
-  MDBCheckbox,
   MDBBtn,
-  MDBIcon
+  
 }
 from 'mdb-react-ui-kit';
 import { toast } from 'react-toastify';
